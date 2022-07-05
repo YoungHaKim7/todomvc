@@ -1,0 +1,20 @@
+[package]
+name = "todomvc"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gloo = "0.8.0"
+serde = "1.0.138"
+serde_derive = "1.0.138"
+strum = "0.24.1"
+strum_macros = "0.24.2"
+yew = {path = "packages/yew", features = ["csr"]}
+
+[dependencies.web-sys]
+version = "0.3"
+features = [
+        "HtmlInputElement",
+]
