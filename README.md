@@ -17,3 +17,9 @@ Features a macro for declaring interactive HTML with Rust expressions. Developer
 Achieves high performance by minimizing DOM API calls for each page render and by making it easy to offload processing to background web workers.
 Supports JavaScript interoperability, allowing developers to leverage NPM packages and integrate with existing JavaScript applications.
 Note: Yew is not 1.0 yet. Be prepared to do major refactoring due to breaking API changes
+
+<br>
+<hr>
+# MyYoutube
+
+[GlobalYoung, 한글러스트Rust강의_030_Rust_Webassembly_Todos앱만들기](https://youtu.be/SpixjM86Z4I)
